@@ -31,7 +31,7 @@ export default {
     },
     head() {
         return {
-        title: 'お知らせ',
+            title: 'お知らせ',
         }
     },
 }

@@ -39,6 +39,7 @@ export default {
 
     // Modules (https://go.nuxtjs.dev/config-modules)
     modules: [
+        '@nuxtjs/axios',
     ],
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
@@ -47,20 +48,6 @@ export default {
 
     generate: {
         fallback: true,
-        routes() {
-            const information = axios
-                .get(`${process.env.API_URL}/information`, {
-                    headers: { 'X-API-KEY': process.env.API_KEY },
-                })
-                .then((res) => {
-                    return res.data.contents.map((information) => {
-                        return '/information/' + information.id
-                    })
-                })
-                return Promise.all([information]).then((values) => {
-                    return values.join().split(',')
-                })
-            },
     },
 
     publicRuntimeConfig: {

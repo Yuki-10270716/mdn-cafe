@@ -44,7 +44,7 @@ export default {
     },
     head() {
         return {
-        title: this.item.title,
+            title: this.item.title,
         }
     },
 }
