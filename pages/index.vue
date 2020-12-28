@@ -1,7 +1,7 @@
 <template>
     <layout-wrapper>
         <layout-visual
-            title="NUXT SMAPLE SITE DEMO"
+            title="できたぞ〜！！！！！"
             message="お知らせやメニューをmicroCMSを導入したDEMOサイトになります。"
         />
         <div class="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
