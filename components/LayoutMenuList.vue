@@ -11,7 +11,7 @@
             <div :class="dataClass">
                 <div class="font-bold text-xl mb-2">{{ name }}</div>
                 <p v-if="flagBody" class="text-base mb-2">{{ body }}</p>
-                <p class="text-gray-700 text-base mb-4">{{ price }}円（税込）</p>
+                <p class="text-base mb-4">{{ release }}</p>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@ export default {
         blockClass: {
             type: String,
             default:
-                'md:w-full bg-gray-200 flex flex-wrap justify-between md:px-4 md:py-4',
+                'md:w-full flex flex-wrap justify-between items-center md:px-4 md:py-4 border-b-2',
         },
         imageClass: {
             type: String,
@@ -36,7 +36,7 @@ export default {
         },
         dataClass: {
             type: String,
-            default: 'w-7/12 px-6 py-4 mb:px-0 mb:px-0',
+            default: 'w-7/12 px-6 mb:px-0 mb:px-0',
         },
         flagBody: {
             type: Boolean,
@@ -58,7 +58,7 @@ export default {
             type: String,
             required: true,
         },
-        price: {
+        release: {
             type: Number,
             required: true,
         },

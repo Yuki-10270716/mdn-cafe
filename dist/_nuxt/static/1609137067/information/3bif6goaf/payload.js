@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/information/3bif6goaf", (function(a){return {data:[{item:{id:"3bif6goaf",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"カフェの定休日",date:"2020-07-25T15:00:00.000Z",body:"\u003Cp\u003Eあああああ\u003C\u002Fp\u003E"}}],fetch:[],mutations:void 0}}("2020-12-27T15:57:09.528Z")));

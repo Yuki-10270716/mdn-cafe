@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/information/e98uzjwvp", (function(a){return {data:[{item:{id:"e98uzjwvp",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"test10",date:"2020-12-27T15:00:00.000Z",body:"\u003Cp\u003Efsfぱsfjmlさzmfぱsd；＠jrmフォセdlm\u003C\u002Fp\u003E"}}],fetch:[],mutations:void 0}}("2020-12-27T21:17:43.444Z")));

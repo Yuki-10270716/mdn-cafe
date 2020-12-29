@@ -13,6 +13,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_plugin_05112990 from 'nuxt_plugin_plugin_05112990' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_webfontloader_74a326b4 from 'nuxt_plugin_webfontloader_74a326b4' // Source: ./webfontloader.js (mode: 'client')
+import nuxt_plugin_axios_61f92ca6 from 'nuxt_plugin_axios_61f92ca6' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_filter_3b4804c9 from 'nuxt_plugin_filter_3b4804c9' // Source: ../plugins/filter.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -177,6 +179,14 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_05112990 === 'function') {
     await nuxt_plugin_plugin_05112990(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_webfontloader_74a326b4 === 'function') {
+    await nuxt_plugin_webfontloader_74a326b4(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_61f92ca6 === 'function') {
+    await nuxt_plugin_axios_61f92ca6(app.context, inject)
   }
 
   if (typeof nuxt_plugin_filter_3b4804c9 === 'function') {

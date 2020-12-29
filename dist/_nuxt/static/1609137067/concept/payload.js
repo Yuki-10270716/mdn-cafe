@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/concept", {data:[{}],fetch:[],mutations:void 0});

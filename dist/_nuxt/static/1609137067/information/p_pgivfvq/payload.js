@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/information/p_pgivfvq", (function(a,b){return {data:[{item:{id:"p_pgivfvq",createdAt:a,updatedAt:b,publishedAt:a,revisedAt:b,title:"test2",date:"2020-12-27T15:00:00.000Z",body:"\u003Cp\u003Eファsdファsfszdf\u003C\u002Fp\u003E"}}],fetch:[],mutations:void 0}}("2020-12-27T20:02:33.760Z","2020-12-27T20:18:51.556Z")));

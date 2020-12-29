@@ -2,7 +2,7 @@
     <div :class="`mb-10 mx-auto ${classPosition}`">
         <a
         :href="link"
-        :class="`font-semibold md:text-lg xl:text-base px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 leading-tight shadow-md ${classShape} ${classBackGroundColor} ${classBackGroundHoverColor} ${classTextColor}`"
+        :class="`font-semibold md:text-lg xl:text-base px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 leading-tight shadow-md ${classBackGroundHoverColor} ${classTextColor}`"
         >
         {{ name }}
         </a>
@@ -29,17 +29,13 @@ export default {
             type: String,
             default: 'round-lg',
         },
-        classBackGroundColor: {
-            type: String,
-            default: 'bg-white',
-        },
         classBackGroundHoverColor: {
             type: String,
             default: 'hover:bg-gray-200',
         },
         classTextColor: {
             type: String,
-            default: 'text-gray-800',
+            default: 'text-white',
         },
     },
 }

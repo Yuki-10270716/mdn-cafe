@@ -1,38 +1,38 @@
 [
   {
-    "name": "concept",
-    "path": "/concept",
-    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/concept/index.vue",
-    "chunkName": "pages/concept/index",
-    "_name": "_13c231de"
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/about/index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_2fb3b176"
   },
   {
-    "name": "information",
-    "path": "/information",
-    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/information/index.vue",
-    "chunkName": "pages/information/index",
-    "_name": "_0d33c5d5"
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/blog/index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_f29e3122"
   },
   {
-    "name": "menu",
-    "path": "/menu",
-    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/menu/index.vue",
-    "chunkName": "pages/menu/index",
-    "_name": "_5b18f628"
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/contact/index.vue",
+    "chunkName": "pages/contact/index",
+    "_name": "_50706a6e"
   },
   {
-    "name": "shop",
-    "path": "/shop",
-    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/shop/index.vue",
-    "chunkName": "pages/shop/index",
-    "_name": "_086979c3"
+    "name": "works",
+    "path": "/works",
+    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/works/index.vue",
+    "chunkName": "pages/works/index",
+    "_name": "_4a85fb2b"
   },
   {
-    "name": "information-id",
-    "path": "/information/:id",
-    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/information/_id.vue",
-    "chunkName": "pages/information/_id",
-    "_name": "_5d33397d"
+    "name": "blog-id",
+    "path": "/blog/:id",
+    "component": "/Users/nakatatomoyuki/Desktop/mdn-cafe/pages/blog/_id.vue",
+    "chunkName": "pages/blog/_id",
+    "_name": "_e2400cd2"
   },
   {
     "name": "index",

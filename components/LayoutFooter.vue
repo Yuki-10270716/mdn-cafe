@@ -1,9 +1,9 @@
 <template>
     <footer class="bg-black pb-10 pt-10">
         <p
-        class="text-center text-white text-sm font-bold leading-relaxed whitespace-no-wrap uppercase"
+        class="text-center text-sm font-bold leading-relaxed whitespace-no-wrap"
         >
-        Copyright © 2020 NUXT SMAPLE SITE DEMO
+        © 2020</small>
         </p>
     </footer>
 </template>

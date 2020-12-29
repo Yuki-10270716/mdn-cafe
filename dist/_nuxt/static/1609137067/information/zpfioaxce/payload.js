@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/information/zpfioaxce", (function(a){return {data:[{item:{id:"zpfioaxce",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"テスト3",date:"2020-12-27T15:00:00.000Z",body:"\u003Cp\u003Eいいいいい\u003C\u002Fp\u003E"}}],fetch:[],mutations:void 0}}("2020-12-27T17:00:01.065Z")));

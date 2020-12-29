@@ -40,7 +40,14 @@ export default {
     // Modules (https://go.nuxtjs.dev/config-modules)
     modules: [
         '@nuxtjs/axios',
+        'nuxt-webfontloader'
     ],
+
+    webfontloader: {
+        google: {
+            families: ['Cinzel:400,500,700','Noto+Sans+JP:400,500,700']
+        }
+    },
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {

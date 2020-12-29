@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/information/zomzsacbx", (function(a){return {data:[{item:{id:"zomzsacbx",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"テスト2",date:"2020-12-27T15:00:00.000Z",body:"\u003Cp\u003E見えてる？\u003C\u002Fp\u003E"}}],fetch:[],mutations:void 0}}("2020-12-27T16:52:57.493Z")));
